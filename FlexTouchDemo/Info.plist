@@ -21,5 +21,9 @@
 			</array>
 		</dict>
 	</dict>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>Flextouch Demo Use</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>Flextouch Demo Use</string>
 </dict>
 </plist>
