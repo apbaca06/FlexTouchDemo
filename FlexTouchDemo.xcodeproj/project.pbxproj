@@ -18,6 +18,7 @@
 		DFD81D2428DC637200C5D417 /* MallyaSessionSeedPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD81D2328DC637200C5D417 /* MallyaSessionSeedPayload.swift */; };
 		DFDACC1E28E15ADB00784DEF /* MallyaCurrentTimePayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDACC1D28E15ADB00784DEF /* MallyaCurrentTimePayload.swift */; };
 		DFDACC2028E15DAF00784DEF /* MallyaPowerManagementPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDACC1F28E15DAF00784DEF /* MallyaPowerManagementPayload.swift */; };
+		DFDACC2428E2A98D00784DEF /* AES.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDACC2328E2A98D00784DEF /* AES.m */; };
 		DFDACC2A28E2D34300784DEF /* Flag.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDACC2928E2D34300784DEF /* Flag.swift */; };
 		DFDACC2C28E2D50400784DEF /* MallyaMetaDataServiceUUID.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDACC2B28E2D50400784DEF /* MallyaMetaDataServiceUUID.swift */; };
 		DFDACC2F28E2D53500784DEF /* MallyaServiceUUID.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDACC2E28E2D53500784DEF /* MallyaServiceUUID.swift */; };
@@ -27,6 +28,7 @@
 		DFDACC3828E2DBF300784DEF /* MallyaAdvertisementData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDACC3728E2DBF300784DEF /* MallyaAdvertisementData.swift */; };
 		DFDACC3B28E2DD0F00784DEF /* MallyaPeripheralInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDACC3A28E2DD0F00784DEF /* MallyaPeripheralInfo.swift */; };
 		DFDACC3D28E2DD3F00784DEF /* MallyaCharacteristicInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDACC3C28E2DD3F00784DEF /* MallyaCharacteristicInfo.swift */; };
+		DFDACC3F28E2DDC300784DEF /* Data+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDACC3E28E2DDC300784DEF /* Data+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +45,9 @@
 		DFD81D2328DC637200C5D417 /* MallyaSessionSeedPayload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MallyaSessionSeedPayload.swift; sourceTree = "<group>"; };
 		DFDACC1D28E15ADB00784DEF /* MallyaCurrentTimePayload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MallyaCurrentTimePayload.swift; sourceTree = "<group>"; };
 		DFDACC1F28E15DAF00784DEF /* MallyaPowerManagementPayload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MallyaPowerManagementPayload.swift; sourceTree = "<group>"; };
+		DFDACC2128E2A97200784DEF /* AES.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AES.h; sourceTree = "<group>"; };
+		DFDACC2228E2A98C00784DEF /* FlexTouchDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlexTouchDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		DFDACC2328E2A98D00784DEF /* AES.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AES.m; sourceTree = "<group>"; };
 		DFDACC2928E2D34300784DEF /* Flag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flag.swift; sourceTree = "<group>"; };
 		DFDACC2B28E2D50400784DEF /* MallyaMetaDataServiceUUID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MallyaMetaDataServiceUUID.swift; sourceTree = "<group>"; };
 		DFDACC2E28E2D53500784DEF /* MallyaServiceUUID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MallyaServiceUUID.swift; sourceTree = "<group>"; };
@@ -52,6 +57,7 @@
 		DFDACC3728E2DBF300784DEF /* MallyaAdvertisementData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MallyaAdvertisementData.swift; sourceTree = "<group>"; };
 		DFDACC3A28E2DD0F00784DEF /* MallyaPeripheralInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MallyaPeripheralInfo.swift; sourceTree = "<group>"; };
 		DFDACC3C28E2DD3F00784DEF /* MallyaCharacteristicInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MallyaCharacteristicInfo.swift; sourceTree = "<group>"; };
+		DFDACC3E28E2DDC300784DEF /* Data+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,14 +93,18 @@
 				DFB8D8DB28D485F900950D59 /* AppDelegate.swift */,
 				DFB8D8DD28D485F900950D59 /* SceneDelegate.swift */,
 				DFB8D8DF28D485F900950D59 /* ViewController.swift */,
+				DFDACC4028E2DDF600784DEF /* Extension */,
 				DFDACC3928E2DBFE00784DEF /* Advertisement */,
 				DFDACC2D28E2D51F00784DEF /* BluetoothUUID */,
 				DFDACC3428E2D93900784DEF /* Payload */,
 				DFDACC2628E2D12C00784DEF /* DataReader */,
+				DFDACC2128E2A97200784DEF /* AES.h */,
+				DFDACC2328E2A98D00784DEF /* AES.m */,
 				DFB8D8E128D485F900950D59 /* Main.storyboard */,
 				DFB8D8E428D485FA00950D59 /* Assets.xcassets */,
 				DFB8D8E628D485FA00950D59 /* LaunchScreen.storyboard */,
 				DFB8D8E928D485FA00950D59 /* Info.plist */,
+				DFDACC2228E2A98C00784DEF /* FlexTouchDemo-Bridging-Header.h */,
 			);
 			path = FlexTouchDemo;
 			sourceTree = "<group>";
@@ -141,6 +151,14 @@
 			path = Advertisement;
 			sourceTree = "<group>";
 		};
+		DFDACC4028E2DDF600784DEF /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DFDACC3E28E2DDC300784DEF /* Data+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -173,6 +191,7 @@
 				TargetAttributes = {
 					DFB8D8D728D485F900950D59 = {
 						CreatedOnToolsVersion = 13.4;
+						LastSwiftMigration = 1400;
 					};
 				};
 			};
@@ -220,6 +239,7 @@
 				DFDACC3828E2DBF300784DEF /* MallyaAdvertisementData.swift in Sources */,
 				DFDACC3D28E2DD3F00784DEF /* MallyaCharacteristicInfo.swift in Sources */,
 				DFB8D8E028D485F900950D59 /* ViewController.swift in Sources */,
+				DFDACC3F28E2DDC300784DEF /* Data+Extension.swift in Sources */,
 				DFDACC3328E2D80600784DEF /* Payload.swift in Sources */,
 				DFB8D8DC28D485F900950D59 /* AppDelegate.swift in Sources */,
 				DFDACC3B28E2DD0F00784DEF /* MallyaPeripheralInfo.swift in Sources */,
@@ -228,6 +248,7 @@
 				DFDACC2F28E2D53500784DEF /* MallyaServiceUUID.swift in Sources */,
 				DFD81D2428DC637200C5D417 /* MallyaSessionSeedPayload.swift in Sources */,
 				DFDACC1E28E15ADB00784DEF /* MallyaCurrentTimePayload.swift in Sources */,
+				DFDACC2428E2A98D00784DEF /* AES.m in Sources */,
 				DFB8D8DE28D485F900950D59 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -373,6 +394,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9TNVAWA2VV;
@@ -383,6 +405,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -391,6 +414,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.h2sync.FlexTouchDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "FlexTouchDemo/FlexTouchDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -401,6 +426,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9TNVAWA2VV;
@@ -411,6 +437,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -419,6 +446,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.h2sync.FlexTouchDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "FlexTouchDemo/FlexTouchDemo-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
