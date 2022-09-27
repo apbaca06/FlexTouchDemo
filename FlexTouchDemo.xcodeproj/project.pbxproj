@@ -16,6 +16,7 @@
 		DFDACC2C28E2D50400784DEF /* MallyaMetaDataServiceUUID.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDACC2B28E2D50400784DEF /* MallyaMetaDataServiceUUID.swift */; };
 		DFDACC2F28E2D53500784DEF /* MallyaServiceUUID.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDACC2E28E2D53500784DEF /* MallyaServiceUUID.swift */; };
 		DFDACC3128E2D54900784DEF /* MallyaCharacteristicUUID.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDACC3028E2D54900784DEF /* MallyaCharacteristicUUID.swift */; };
+		DFDACC3328E2D80600784DEF /* Payload.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDACC3228E2D80600784DEF /* Payload.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		DFDACC2B28E2D50400784DEF /* MallyaMetaDataServiceUUID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MallyaMetaDataServiceUUID.swift; sourceTree = "<group>"; };
 		DFDACC2E28E2D53500784DEF /* MallyaServiceUUID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MallyaServiceUUID.swift; sourceTree = "<group>"; };
 		DFDACC3028E2D54900784DEF /* MallyaCharacteristicUUID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MallyaCharacteristicUUID.swift; sourceTree = "<group>"; };
+		DFDACC3228E2D80600784DEF /* Payload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Payload.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				DFB8D8DD28D485F900950D59 /* SceneDelegate.swift */,
 				DFB8D8DF28D485F900950D59 /* ViewController.swift */,
 				DFDACC2D28E2D51F00784DEF /* BluetoothUUID */,
+				DFDACC3228E2D80600784DEF /* Payload.swift */,
 				DFB8D8E128D485F900950D59 /* Main.storyboard */,
 				DFB8D8E428D485FA00950D59 /* Assets.xcassets */,
 				DFB8D8E628D485FA00950D59 /* LaunchScreen.storyboard */,
@@ -156,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DFB8D8E028D485F900950D59 /* ViewController.swift in Sources */,
+				DFDACC3328E2D80600784DEF /* Payload.swift in Sources */,
 				DFB8D8DC28D485F900950D59 /* AppDelegate.swift in Sources */,
 				DFDACC3128E2D54900784DEF /* MallyaCharacteristicUUID.swift in Sources */,
 				DFDACC2C28E2D50400784DEF /* MallyaMetaDataServiceUUID.swift in Sources */,
