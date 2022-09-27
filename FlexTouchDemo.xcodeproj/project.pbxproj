@@ -29,6 +29,7 @@
 		DFDACC3B28E2DD0F00784DEF /* MallyaPeripheralInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDACC3A28E2DD0F00784DEF /* MallyaPeripheralInfo.swift */; };
 		DFDACC3D28E2DD3F00784DEF /* MallyaCharacteristicInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDACC3C28E2DD3F00784DEF /* MallyaCharacteristicInfo.swift */; };
 		DFDACC3F28E2DDC300784DEF /* Data+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDACC3E28E2DDC300784DEF /* Data+Extension.swift */; };
+		DFDACC4228E2DEC600784DEF /* FixedWidthInteger+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDACC4128E2DEC600784DEF /* FixedWidthInteger+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,7 @@
 		DFDACC3A28E2DD0F00784DEF /* MallyaPeripheralInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MallyaPeripheralInfo.swift; sourceTree = "<group>"; };
 		DFDACC3C28E2DD3F00784DEF /* MallyaCharacteristicInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MallyaCharacteristicInfo.swift; sourceTree = "<group>"; };
 		DFDACC3E28E2DDC300784DEF /* Data+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Extension.swift"; sourceTree = "<group>"; };
+		DFDACC4128E2DEC600784DEF /* FixedWidthInteger+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FixedWidthInteger+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				DFDACC3E28E2DDC300784DEF /* Data+Extension.swift */,
+				DFDACC4128E2DEC600784DEF /* FixedWidthInteger+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -233,6 +236,7 @@
 			files = (
 				DFD81D2028DC53F300C5D417 /* DataReader.swift in Sources */,
 				DFDACC2A28E2D34300784DEF /* Flag.swift in Sources */,
+				DFDACC4228E2DEC600784DEF /* FixedWidthInteger+Extension.swift in Sources */,
 				DFD81D2228DC5EA500C5D417 /* MallyaConnectionStatusPayload.swift in Sources */,
 				DFDACC2028E15DAF00784DEF /* MallyaPowerManagementPayload.swift in Sources */,
 				DFDACC3628E2DB2600784DEF /* AdvertisementDataKey.swift in Sources */,
