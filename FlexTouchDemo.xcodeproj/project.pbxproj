@@ -25,6 +25,8 @@
 		DFDACC3328E2D80600784DEF /* Payload.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDACC3228E2D80600784DEF /* Payload.swift */; };
 		DFDACC3628E2DB2600784DEF /* AdvertisementDataKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDACC3528E2DB2600784DEF /* AdvertisementDataKey.swift */; };
 		DFDACC3828E2DBF300784DEF /* MallyaAdvertisementData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDACC3728E2DBF300784DEF /* MallyaAdvertisementData.swift */; };
+		DFDACC3B28E2DD0F00784DEF /* MallyaPeripheralInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDACC3A28E2DD0F00784DEF /* MallyaPeripheralInfo.swift */; };
+		DFDACC3D28E2DD3F00784DEF /* MallyaCharacteristicInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDACC3C28E2DD3F00784DEF /* MallyaCharacteristicInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +50,8 @@
 		DFDACC3228E2D80600784DEF /* Payload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Payload.swift; sourceTree = "<group>"; };
 		DFDACC3528E2DB2600784DEF /* AdvertisementDataKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvertisementDataKey.swift; sourceTree = "<group>"; };
 		DFDACC3728E2DBF300784DEF /* MallyaAdvertisementData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MallyaAdvertisementData.swift; sourceTree = "<group>"; };
+		DFDACC3A28E2DD0F00784DEF /* MallyaPeripheralInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MallyaPeripheralInfo.swift; sourceTree = "<group>"; };
+		DFDACC3C28E2DD3F00784DEF /* MallyaCharacteristicInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MallyaCharacteristicInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +135,8 @@
 			children = (
 				DFDACC3528E2DB2600784DEF /* AdvertisementDataKey.swift */,
 				DFDACC3728E2DBF300784DEF /* MallyaAdvertisementData.swift */,
+				DFDACC3A28E2DD0F00784DEF /* MallyaPeripheralInfo.swift */,
+				DFDACC3C28E2DD3F00784DEF /* MallyaCharacteristicInfo.swift */,
 			);
 			path = Advertisement;
 			sourceTree = "<group>";
@@ -212,9 +218,11 @@
 				DFDACC2028E15DAF00784DEF /* MallyaPowerManagementPayload.swift in Sources */,
 				DFDACC3628E2DB2600784DEF /* AdvertisementDataKey.swift in Sources */,
 				DFDACC3828E2DBF300784DEF /* MallyaAdvertisementData.swift in Sources */,
+				DFDACC3D28E2DD3F00784DEF /* MallyaCharacteristicInfo.swift in Sources */,
 				DFB8D8E028D485F900950D59 /* ViewController.swift in Sources */,
 				DFDACC3328E2D80600784DEF /* Payload.swift in Sources */,
 				DFB8D8DC28D485F900950D59 /* AppDelegate.swift in Sources */,
+				DFDACC3B28E2DD0F00784DEF /* MallyaPeripheralInfo.swift in Sources */,
 				DFDACC3128E2D54900784DEF /* MallyaCharacteristicUUID.swift in Sources */,
 				DFDACC2C28E2D50400784DEF /* MallyaMetaDataServiceUUID.swift in Sources */,
 				DFDACC2F28E2D53500784DEF /* MallyaServiceUUID.swift in Sources */,
