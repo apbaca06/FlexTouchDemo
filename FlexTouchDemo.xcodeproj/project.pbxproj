@@ -23,6 +23,8 @@
 		DFDACC2F28E2D53500784DEF /* MallyaServiceUUID.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDACC2E28E2D53500784DEF /* MallyaServiceUUID.swift */; };
 		DFDACC3128E2D54900784DEF /* MallyaCharacteristicUUID.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDACC3028E2D54900784DEF /* MallyaCharacteristicUUID.swift */; };
 		DFDACC3328E2D80600784DEF /* Payload.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDACC3228E2D80600784DEF /* Payload.swift */; };
+		DFDACC3628E2DB2600784DEF /* AdvertisementDataKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDACC3528E2DB2600784DEF /* AdvertisementDataKey.swift */; };
+		DFDACC3828E2DBF300784DEF /* MallyaAdvertisementData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDACC3728E2DBF300784DEF /* MallyaAdvertisementData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,8 @@
 		DFDACC2E28E2D53500784DEF /* MallyaServiceUUID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MallyaServiceUUID.swift; sourceTree = "<group>"; };
 		DFDACC3028E2D54900784DEF /* MallyaCharacteristicUUID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MallyaCharacteristicUUID.swift; sourceTree = "<group>"; };
 		DFDACC3228E2D80600784DEF /* Payload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Payload.swift; sourceTree = "<group>"; };
+		DFDACC3528E2DB2600784DEF /* AdvertisementDataKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvertisementDataKey.swift; sourceTree = "<group>"; };
+		DFDACC3728E2DBF300784DEF /* MallyaAdvertisementData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MallyaAdvertisementData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 				DFB8D8DB28D485F900950D59 /* AppDelegate.swift */,
 				DFB8D8DD28D485F900950D59 /* SceneDelegate.swift */,
 				DFB8D8DF28D485F900950D59 /* ViewController.swift */,
+				DFDACC3928E2DBFE00784DEF /* Advertisement */,
 				DFDACC2D28E2D51F00784DEF /* BluetoothUUID */,
 				DFDACC3428E2D93900784DEF /* Payload */,
 				DFDACC2628E2D12C00784DEF /* DataReader */,
@@ -119,6 +124,15 @@
 				DFDACC1F28E15DAF00784DEF /* MallyaPowerManagementPayload.swift */,
 			);
 			path = Payload;
+			sourceTree = "<group>";
+		};
+		DFDACC3928E2DBFE00784DEF /* Advertisement */ = {
+			isa = PBXGroup;
+			children = (
+				DFDACC3528E2DB2600784DEF /* AdvertisementDataKey.swift */,
+				DFDACC3728E2DBF300784DEF /* MallyaAdvertisementData.swift */,
+			);
+			path = Advertisement;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +210,8 @@
 				DFDACC2A28E2D34300784DEF /* Flag.swift in Sources */,
 				DFD81D2228DC5EA500C5D417 /* MallyaConnectionStatusPayload.swift in Sources */,
 				DFDACC2028E15DAF00784DEF /* MallyaPowerManagementPayload.swift in Sources */,
+				DFDACC3628E2DB2600784DEF /* AdvertisementDataKey.swift in Sources */,
+				DFDACC3828E2DBF300784DEF /* MallyaAdvertisementData.swift in Sources */,
 				DFB8D8E028D485F900950D59 /* ViewController.swift in Sources */,
 				DFDACC3328E2D80600784DEF /* Payload.swift in Sources */,
 				DFB8D8DC28D485F900950D59 /* AppDelegate.swift in Sources */,
