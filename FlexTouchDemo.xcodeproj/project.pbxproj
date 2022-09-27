@@ -30,6 +30,7 @@
 		DFDACC3D28E2DD3F00784DEF /* MallyaCharacteristicInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDACC3C28E2DD3F00784DEF /* MallyaCharacteristicInfo.swift */; };
 		DFDACC3F28E2DDC300784DEF /* Data+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDACC3E28E2DDC300784DEF /* Data+Extension.swift */; };
 		DFDACC4228E2DEC600784DEF /* FixedWidthInteger+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDACC4128E2DEC600784DEF /* FixedWidthInteger+Extension.swift */; };
+		DFDACC4428E2E79A00784DEF /* Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDACC4328E2E79A00784DEF /* Crypto.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,7 @@
 		DFDACC3C28E2DD3F00784DEF /* MallyaCharacteristicInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MallyaCharacteristicInfo.swift; sourceTree = "<group>"; };
 		DFDACC3E28E2DDC300784DEF /* Data+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Extension.swift"; sourceTree = "<group>"; };
 		DFDACC4128E2DEC600784DEF /* FixedWidthInteger+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FixedWidthInteger+Extension.swift"; sourceTree = "<group>"; };
+		DFDACC4328E2E79A00784DEF /* Crypto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Crypto.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 				DFB8D8DB28D485F900950D59 /* AppDelegate.swift */,
 				DFB8D8DD28D485F900950D59 /* SceneDelegate.swift */,
 				DFB8D8DF28D485F900950D59 /* ViewController.swift */,
+				DFDACC4328E2E79A00784DEF /* Crypto.swift */,
 				DFDACC4028E2DDF600784DEF /* Extension */,
 				DFDACC3928E2DBFE00784DEF /* Advertisement */,
 				DFDACC2D28E2D51F00784DEF /* BluetoothUUID */,
@@ -246,6 +249,7 @@
 				DFDACC3F28E2DDC300784DEF /* Data+Extension.swift in Sources */,
 				DFDACC3328E2D80600784DEF /* Payload.swift in Sources */,
 				DFB8D8DC28D485F900950D59 /* AppDelegate.swift in Sources */,
+				DFDACC4428E2E79A00784DEF /* Crypto.swift in Sources */,
 				DFDACC3B28E2DD0F00784DEF /* MallyaPeripheralInfo.swift in Sources */,
 				DFDACC3128E2D54900784DEF /* MallyaCharacteristicUUID.swift in Sources */,
 				DFDACC2C28E2D50400784DEF /* MallyaMetaDataServiceUUID.swift in Sources */,
