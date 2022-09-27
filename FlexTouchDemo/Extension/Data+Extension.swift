@@ -19,4 +19,18 @@ extension Data {
         
         return [UInt8](buffer)
     }
+    
+    /// data: data that's needs to calculate CRC
+    /// seed: previous CRC value that needs to add up this time
+    func crc16ccitt(seed: UInt16 = 0xFFFF, final: UInt16 = 0xffff) -> UInt16 {
+        let polynomial: UInt16 = 0x1021
+        var crc = seed
+        self.forEach { (byte) in
+            crc ^= UInt16(byte) << 8
+            (0..<8).forEach({ _ in
+                crc = (crc & 0x8000) != 0 ? (crc << 1) ^ polynomial : crc << 1
+            })
+        }
+        return crc & final
+    }
 }
