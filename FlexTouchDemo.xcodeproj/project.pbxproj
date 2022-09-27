@@ -18,6 +18,8 @@
 		DFDACC2F28E2D53500784DEF /* MallyaServiceUUID.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDACC2E28E2D53500784DEF /* MallyaServiceUUID.swift */; };
 		DFDACC3128E2D54900784DEF /* MallyaCharacteristicUUID.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDACC3028E2D54900784DEF /* MallyaCharacteristicUUID.swift */; };
 		DFDACC3328E2D80600784DEF /* Payload.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDACC3228E2D80600784DEF /* Payload.swift */; };
+		DFD81D2228DC5EA500C5D417 /* MallyaConnectionStatusPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD81D2128DC5EA500C5D417 /* MallyaConnectionStatusPayload.swift */; };
+		DFD81D2428DC637200C5D417 /* MallyaSessionSeedPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD81D2328DC637200C5D417 /* MallyaSessionSeedPayload.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		DFDACC2E28E2D53500784DEF /* MallyaServiceUUID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MallyaServiceUUID.swift; sourceTree = "<group>"; };
 		DFDACC3028E2D54900784DEF /* MallyaCharacteristicUUID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MallyaCharacteristicUUID.swift; sourceTree = "<group>"; };
 		DFDACC3228E2D80600784DEF /* Payload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Payload.swift; sourceTree = "<group>"; };
+		DFD81D2128DC5EA500C5D417 /* MallyaConnectionStatusPayload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MallyaConnectionStatusPayload.swift; sourceTree = "<group>"; };
+		DFD81D2328DC637200C5D417 /* MallyaSessionSeedPayload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MallyaSessionSeedPayload.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,7 @@
 				DFDACC2D28E2D51F00784DEF /* BluetoothUUID */,
 				DFD81D2128DC5EA500C5D417 /* MallyaConnectionStatusPayload.swift */,
 				DFDACC3228E2D80600784DEF /* Payload.swift */,
+				DFD81D2328DC637200C5D417 /* MallyaSessionSeedPayload.swift */,
 				DFB8D8E128D485F900950D59 /* Main.storyboard */,
 				DFB8D8E428D485FA00950D59 /* Assets.xcassets */,
 				DFB8D8E628D485FA00950D59 /* LaunchScreen.storyboard */,
@@ -168,6 +173,7 @@
 				DFDACC3128E2D54900784DEF /* MallyaCharacteristicUUID.swift in Sources */,
 				DFDACC2C28E2D50400784DEF /* MallyaMetaDataServiceUUID.swift in Sources */,
 				DFDACC2F28E2D53500784DEF /* MallyaServiceUUID.swift in Sources */,
+				DFD81D2428DC637200C5D417 /* MallyaSessionSeedPayload.swift in Sources */,
 				DFB8D8DE28D485F900950D59 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
